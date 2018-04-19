@@ -3,5 +3,4 @@ node_js: node
 services:
 - mongodb
 deploy:
-  provider: heroku
   app: https://git.heroku.com/quiet-gorge-178790.git

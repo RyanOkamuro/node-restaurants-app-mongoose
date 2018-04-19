@@ -2,5 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
-
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: J1vKys0ETswMdrmBOhQwhyng/NFMazrgu4GfyyxjGhHp6YbHPL1gkyKuYjDILX7/6ggqITqYP7TSmCtnvMLHMOrnIEkeejhExKRqRFqMbddyq8L0K4TjTrs1kmVMlMjRE6HVrPOISriwLRj7nBnJ9lt6LHg6a6RXpJFoQ2E5dV6Bbebihbff83YoAN9ocMh8Ip+u4hppql1QCMqJyUYwWxYXS0+miT3ClTXqeOPWhlx1A0NcBwFTCYe/xiSrCQ2rOWCJQztB8Ilwi/ywstRWmHpG6HdhaQz4ck0pMVxbQWo7eqvp2mwzHowuN4GdM4igkIC7jEXyy2v/SniKoOiIWDdkRHRrWkWAZox3PdC3FBlVgbMzCOQ1JdFoUNLoL2SxSQ0yZZ0BVkvv2NaRhwoEdteNHtyf4mzry2pVUlyV+cS/yfeESCT6Ss+JTNmS4WFIPCVqVOJL1A7H0w8cx+RBe913vt/Ew1KsS9SMMry52PvlszcPjU7pUSQqBOmKmK5XGpqEbSnu2BmfFSthqHyvFGBjWWOAAJEN1pusA3tvniZASJXK0PX+JTt4p4u0HbIYQ+E2ow9+GtSMhYXWkpunwhLBZskdJzT/eiKFc+Ouj1Npi+djIFfN18VhfxFQ1WNZB7mwTd0bNct4EMeqan8TukJlAlQ99lc90Tsa/8JMN+Y=
+  app: https://git.heroku.com/dry-reef-85258.git
+  on:
+    repo: RyanOkamuro/node-restaurants-app-mongoose
